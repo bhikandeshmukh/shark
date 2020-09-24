@@ -61,6 +61,21 @@ $ git clone https://github.com/thebhikandeshmukh/shark && cd shark && chmod +x *
 
 $ shark
 ```
+
+*`Commands` for Kali-Linux :-
+
+```
+$ git clone https://github.com/Bhaviktutorials/shark
+
+$ cd shark
+
+$ chmod +x *
+
+$ ./kali-setup
+
+$ shark 
+```
+
 ### Screenshots
 
 #### Installing Shark :-
@@ -72,11 +87,11 @@ $ shark
 
 Developer / Author: [Bhikan Deshmukh](https://www.instagram.com/bhikan_deshmukh/)
 
-## Credit :-
+### Credit :-
 
-### [DarkSecDevelopers HTML Code](https://github.com/DarkSecDevelopers)
+## [DarkSecDevelopers HTML Code](https://github.com/DarkSecDevelopers)
 
-### [jaykali](https://github.com/jaykali)
+## [jaykali](https://github.com/jaykali)
 
 ## To Know about Ethical Hacking , Android And Kali Linux Do Follow Us:-
 
