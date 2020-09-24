@@ -20,6 +20,7 @@
 ###### <p align="center"> *You can check [Instagram](https://www.instagram.com/bhikan_deshmukh)✌*
 ---
 ### What is Shark??
+
 Shark is a tool that will help you do Phishing in advance way so no check and identify that you are you doing phishing. we guys have add a feature of custom link so the normal link of ngrok that will change in to different link in the tool it self and you can customise that link also like you can make https://google.com/gvbrvbtfg/ftps.io
 That way no one will caught that you are phishing
 Hope you guys like this Project,then dont forget to give it a like.
@@ -32,7 +33,9 @@ Hope you guys like this Project,then dont forget to give it a like.
 
 
 ### Installation Shark
+
 * `Commands` for termux
+
 ```
 $ termux-setup-storage
 
@@ -54,6 +57,7 @@ $ shark
 ```
 
 * Single `Command` for termux
+
 ```
 $ termux-setup-storage && pkg update && pkg upgrade && pkg install git -y
 
@@ -62,7 +66,9 @@ $ git clone https://github.com/thebhikandeshmukh/shark && cd shark && chmod +x *
 $ shark
 ```
 
-*`Commands` for Kali-Linux :-
+* `Commands` for Kali-Linux :-
+
+*note :- shark is under construction for kali linux
 
 ```
 $ git clone https://github.com/Bhaviktutorials/shark
@@ -85,15 +91,15 @@ $ shark
 
 ### Development by
 
-Developer / Author: [Bhikan Deshmukh](https://www.instagram.com/bhikan_deshmukh/)
+* Developer / Author: [Bhikan Deshmukh](https://www.instagram.com/bhikan_deshmukh/)
 
 ### Credit :-
 
-## [DarkSecDevelopers HTML Code](https://github.com/DarkSecDevelopers)
+* [DarkSecDevelopers HTML Code](https://github.com/DarkSecDevelopers)
 
-## [jaykali](https://github.com/jaykali)
+* [jaykali](https://github.com/jaykali)
 
-## To Know about Ethical Hacking , Android And Kali Linux Do Follow Us:-
+### To Know about Ethical Hacking , Android And Kali Linux Do Follow Us:-
 
 [![Instagram](https://www.freepnglogos.com/uploads/instagram-logo-png-transparent-0.png)](https://www.instagram.com/bhikan_deshmukh/)
 
