@@ -72,6 +72,12 @@ $ shark
 
 Developer / Author: [Bhikan Deshmukh](https://www.instagram.com/bhikan_deshmukh/)
 
+## Credit :-
+
+### [DarkSecDevelopers HTML Code](https://github.com/DarkSecDevelopers)
+
+### [jaykali](https://github.com/jaykali)
+
 ## To Know about Ethical Hacking , Android And Kali Linux Do Follow Us:-
 
 [![Instagram](https://www.freepnglogos.com/uploads/instagram-logo-png-transparent-0.png)](https://www.instagram.com/bhikan_deshmukh/)
