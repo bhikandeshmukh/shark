@@ -8,11 +8,11 @@
 <p align="center">
 <a href="https://github.com/thebhikandeshmukh"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
  <a href="https://instamojo.com/@dpanshunarwal"><img title="Donate" src="https://img.shields.io/badge/Donate-Paytm-blue" ></a>
- <a href="https://github.com/thebhikandeshmukh/Termux-Keys"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.0&x2=0" ></a>
-<a href="https://github.com/thebhikandeshmukh"><img title="GitHub version" src="https://img.shields.io/badge/licences-thebhikandeshmukh-red" ></a>
+ <a href="https://github.com/bhikandeshmukh/Termux-Keys"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.0&x2=0" ></a>
+<a href="https://github.com/bhikandeshmukh"><img title="GitHub version" src="https://img.shields.io/badge/licences-thebhikandeshmukh-red" ></a>
  <a href="https://www.youtube.com/deepanshunarwal"><img alt="Youtube" src="https://img.shields.io/badge/You-Tube-red"/></a>
  <a href="https://instagram.com/bhikan_deshmukh"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-thebhikandeshmukh-ff69b4"/></a>
- <a href="https://github.com/thebhikandeshmukh"><img title="Stars" src="https://img.shields.io/github/stars/thebhikandeshmukh/shark?style=social" ></a>
+ <a href="https://github.com/bhikandeshmukh"><img title="Stars" src="https://img.shields.io/github/stars/thebhikandeshmukh/shark?style=social" ></a>
 </p>
 
 ###### <p align="center">*This is official repository maintained by us*
@@ -41,7 +41,7 @@ $ termux-setup-storage
 
 $ pkg update && pkg upgrade && pkg install git -y
 
-$ git clone https://github.com/thebhikandeshmukh/shark
+$ git clone https://github.com/bhikandeshmukh/shark
 
 $ ls
 
@@ -61,7 +61,7 @@ $ shark
 ```
 $ termux-setup-storage && pkg update && pkg upgrade && pkg install git -y
 
-$ git clone https://github.com/thebhikandeshmukh/shark && cd shark && chmod +x * && ./setup
+$ git clone https://github.com/bhikandeshmukh/shark && cd shark && chmod +x * && ./setup
 
 $ shark
 ```
@@ -71,7 +71,7 @@ $ shark
 *note :- shark is under construction for kali linux
 
 ```
-$ git clone https://github.com/thebhikandeshmukh/shark
+$ git clone https://github.com/bhikandeshmukh/shark
 
 $ cd shark
 
@@ -99,10 +99,10 @@ $ shark
 
 * [jaykali](https://github.com/jaykali)
 
-### For more information connect with us
-
+<h2 align="center">To Know about Ethical Hacking , Android And Kali Linux Do Follow Us:-</h2>
 <p align="center">
 <a href="https://t.me/dev_aladdin"><img title="Telegram" src="https://img.shields.io/badge/Telegram-black?style=for-the-badge&logo=Telegram"></a>
-<a href="wa.me/918600525401"><img title="whatsapp" src="https://img.shields.io/badge/whatsapp-blue?style=for-the-badge&logo=whatsapp"></a>
-<a href="https://www.instagram.com/bhikan_deshmukh/"><img title="Instagram" src="https://img.shields.io/badge/INSTAGRAM-purple?style=for-the-badge&logo=instagram"></a>
+<a href="https://wa.me/918600525401"><img title="whatsapp" src="https://img.shields.io/badge/WHATSAPP-%2325D366.svg?&style=for-the-badge&logo=whatsapp&logoColor=white"></a>
+<a href="https://www.instagram.com/bhikan_deshmukh/"><img title="Instagram" src="https://img.shields.io/badge/instagram-%23E4405F.svg?&style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://www.instamojo.com/@deepanshunarwal/"><img title="DONATE" src="https://img.shields.io/badge/DONATE-lightgrey?style=for-the-badge&logo=Google-pay"></a>
 </p>
