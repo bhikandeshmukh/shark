@@ -1,4 +1,3 @@
-## shark is undercuntruction please wait for fixing error
 <p align="center">
   <a href="https://www.instagram.com/bhikan_deshmukh><img title="Built With Love" src="https://forthebadge.com/images/badges/built-with-love.svg">
 <p align="center">
