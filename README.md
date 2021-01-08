@@ -1,40 +1,41 @@
-<p align="center">
-  <a href="https://www.instagram.com/bhikan_deshmukh><img title="Built With Love" src="https://forthebadge.com/images/badges/built-with-love.svg">
-<p align="center">
+<p align=center>
+  <img title="Built With Love" src="https://forthebadge.com/images/badges/built-with-love.svg"></p>
+
+  <br>
+
+<p align=center>
   <a href="https://www.instagram.com/bhikan_deshmukh"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN-INDIA-SCRIPT?colorA=%23ff8100&colorB=%23017e40&colorC=%23ff0000&style=for-the-badge"></a>
+  </p>
 
--------------------------------------------------------------------------------------
+  <br>
 
-### <p align="center"> 𝗦𝗵𝗮𝗿𝗸
 
--------------------------------------------------------------------------------------
+###### <p align="center"> Phishing Tool by (Mr. Bee)  <a href="https://github.com/bhikandeshmukh/Shark-Lite/blob/main/sites.md">
+<br>
+
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/64035221/92106331-df7b5000-ee01-11ea-9f16-c0a62a027b27.jpg">
 </p>
 
--------------------------------------------------------------------------------------
 
-<p align="center">
-<a href="https://www.instagram.com/bhikan_deshmukh"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
- <a href="https://www.instagram.com/bhikan_deshmukh"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=5.0.0&x2=0" ></a>
- <a href="https://www.instagram.com/bhikan_deshmukh"><img title="Stars" src="https://img.shields.io/github/stars/bhikandeshmukh/shark?style=social" ></a>
-<a href="https://github.com/bhikandeshmukh/followers"><img title="Followers" src="https://img.shields.io/github/followers/bhikandeshmukh?color=blue&style=flat-square"></a>
-<a href="https://github.com/bhikandeshmukh/shark/network/members"><img title="Forks" src="https://img.shields.io/github/forks/bhikandeshmukh/MrBeePack?color=red&style=flat-square"></a>
-<a href="https://github.com/bhikandeshmukh/shark/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/bhikandeshmukh/shark?label=Watchers&color=blue&style=flat-square"></a>
+<p align=center>
+  <a href="https://www.instagram.com/bhikan_deshmukh"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
+  <a href="https://www.instagram.com/bhikan_deshmukh"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0&x2=0" ></a>
+  <a href="https://www.instagram.com/bhikan_deshmukh"><img title="Stars" src="https://img.shields.io/github/stars/bhikandeshmukh/shark?style=social" ></a>
+  <a href="https://github.com/bhikandeshmukh/followers"><img title="Followers" src="https://img.shields.io/github/followers/bhikandeshmukh?color=blue&style=flat-square"></a>
+  <a href="https://github.com/bhikandeshmukh/shark/network/members"><img title="Forks" src="https://img.shields.io/github/forks/bhikandeshmukh/shark?color=red&style=flat-square"></a>
+  <a href="https://github.com/bhikandeshmukh/shark/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/bhikandeshmukh/shark?label=Watchers&color=blue&style=flat-square"></a>
 <a href="#"><img src="https://badges.pufler.dev/visits/bhikandeshmukh/shark">
 </p>
 
--------------------------------------------------------------------------------------
 
 ###### <p align="center">*This is official repository maintained by us*
 ###### <p align="center"> *[**Mr. Bee**](https://www.instagram.com/bhikan_deshmukh/) ❤️*
 
--------------------------------------------------------------------------------------
 
 <p align="center"> Future of Phishing is here
 
--------------------------------------------------------------------------------------
 
 ### What is Shark??
 
@@ -45,14 +46,12 @@ we guys have added a feature of a custom link so the normal link of ngrok that w
 That way no one will be caught that you are phishing
 Hope you guys like this project, then don't forget to give it a like.
 
--------------------------------------------------------------------------------------
 
 ### Operating System Requirements
 • **Linux** (Any) <br>
 • **MacOS** <br>
 • **Android** (Using the Termux App {Hackers Keyboard Recommended}) <br>
 
--------------------------------------------------------------------------------------
 
 ### Installation of Shark :-
 
@@ -70,8 +69,6 @@ $ ./kali-setup
 
 $ shark
 ```
-
--------------------------------------------------------------------------------------
 
 ### * `Commands` for ( Android {Termux, UserLand} ) :-
 ```
@@ -102,8 +99,6 @@ $ git clone https://github.com/bhikandeshmukh/shark.git && cd shark && chmod +x 
 
 $ shark
 ```
-
--------------------------------------------------------------------------------------
 
 ### Legal Disclaimer :
 
