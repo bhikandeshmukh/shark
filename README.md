@@ -43,9 +43,9 @@
 ###### <p align="center"> A shark is a tool that will help you do Phishing in an advanced way so no one checks and identify that you are doing phishing.For those guys who Don't know about Phishing let me explain "Phishing is the fraudulent attempt to obtain sensitive information or data, such as usernames, passwords, by disguising oneself as a trustworthy entity in an electronic communication. Typically carried out by email spoofing, instant messaging, and text messaging, phishing often directs users to enter personal information at a fake website which matches the look and feel of the legitimate site. as shown in MR ROBOT.
 
 ##### Debian (kali, Ubuntu ..etc )
-#### <p align="center"> ``` sudo wget -qO- https://github.com/bhikandeshmukh/shark/raw/main/setup | sudo bash ```
+#### <p align="center"> ``` sudo wget -qO- https://github.com/bhikandeshmukh/shark/raw/master/setup | sudo bash ```
 ##### Android (Termux)
-#### <p align="center"> ``` wget -qO- https://github.com/bhikandeshmukh/shark/raw/main/setup | bash ```
+#### <p align="center"> ``` wget -qO- https://github.com/bhikandeshmukh/shark/raw/master/setup | bash ```
 ##### Windows
 ### <p align="center"> [![Open in Cloud Shell](https://user-images.githubusercontent.com/27065646/92304704-8d146d80-ef80-11ea-8c29-0deaabb1c702.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/bhikandeshmukh/shark&tutorial=README.md)
 ###### <p align="center"> **Note**:- Make sure you have done updated your system before using the tool.
