@@ -1,9 +1,9 @@
 .\" Manpage for cloudshell.
 .\" Contact thebhikandeshmukh@gmail.com to correct errors or typos.
-.TH man 8 "10 Jan 2021" "2.0.3" "shark man page"
+.TH man 8 "10 Jan 2021" "2.0.4" "shark man page"
 
 .SH NAME
-shark 2.0.3
+shark 2.0.4
 
 .SH DESCRIPTION
 
@@ -21,9 +21,9 @@ follow this 3 steps:
 For additional info, see: https://github.com/bhikandeshmukh
 
 .SH SEE ALSO
-https://www.instagram.com/bhikan_deshmukh
+https://www.instagram.com/bhikan_deshmukh/
 
 .SH BUGS
 No known bugs.
 .SH AUTHOR
-Mr Bee
+Mr Bee <thebhikandeshmukh@gmail.com>
