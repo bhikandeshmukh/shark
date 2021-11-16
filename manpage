@@ -1,5 +1,5 @@
 .\" Manpage for shark.
-.\" Contact thebhikandeshmukh@gmail.com to correct errors or typos.
+.\" Contact thebhikandeshmukh@gmail.com to correct errors or typos.https://github.com/bhikandeshmukh/shark/blob/master/manpage
 .TH man 8 "10 Jan 2021" "2.0.3" "shark man page"
 
 .SH NAME
@@ -11,9 +11,9 @@ A shark is a tool that will help you do Phishing in an advanced way so no one ch
 For additional info, see: https://github.com/bhikandeshmukh
 
 .SH SEE ALSO
-https://www.instagram.com/bhikan_deshmukh
+https://www.instagram.com/bhikan_deshmukh/
 
 .SH BUGS
 No known bugs.
 .SH AUTHOR
-Mr Bee
+Mr. Bee <thebhikandeshmukh@gmail.com>
