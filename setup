@@ -19,7 +19,7 @@ cafe="\033[0;33m"                                           ##
 fiuscha="\033[0;35m"                                        ##
 blue="\033[1;34m"                                           ##
 l_red="\033[1;37;41m"                                       ##
-nc="\033[0m"                                                ## 
+nc="\033[0m"                                                ##
 
 arch=`uname -m`
 
@@ -42,13 +42,15 @@ spinner() {
 function os () {
 	cat /etc/os-release > /dev/null 2>&1
 	if [ "$?" -eq "0" ]; then
-		OS=DEBIAN 
+		OS=DEBIAN
 		BIN="/usr/bin"
-		main="/usr/share/shark"			
+		main="/usr/share/shark"
 	else
 		OS=TERMUX
 		BIN="${PREFIX}/bin"
 		main="${PREFIX}/share/shark"
+		pkg update -y > /dev/null 2>&1
+		pkg install ncurses-utils -y > /dev/null 2>&1
 	fi
 }
 
@@ -60,25 +62,23 @@ function git_clone() {
 
 
 function dependencies() {
-        launch="installing lib";splashdown="installed lib";echo
-	for i in apache2 php jq curl wget; do		
-		if [ ! -f "${BIN}/${i}" ]; then			
-    			if [ ${OS} != "DEBIAN" ]; then			        
-    				(apt-get install ncurses-utils ${i} -y > /dev/null 2&>1) & spinner
-			else
-				(sudo apt-get install ${i} -y > /dev/null 2&>1) & spinner
-			fi
+        launch="installing lib";splashdown="installed lib"; echo
+    		if [ ${OS} != "DEBIAN" ]; then
+    			(pkg install apache2 php jq curl wget git -y > /dev/null 2>&1) & spinner
+		else
+			(sudo apt-get install ${i} -y > /dev/null 2>&1) & spinner
 		fi
-	done
 }
 
 
 function setup_ngrok() {
 	if [ ! -f  "${BIN}/ngrok" ]; then
 		if [[ ("$arch" == *'arm'*) || ("$arch" == *'Android'*) ]]; then
-			ngrok_url="https://github.com/Linux-Droid/Ngrok/raw/master/Ngrok_Linux_Droid.zip"
+			rm -rf $BIN/ngrok
+			ngrok_url="https://github.com/Bhaviktutorials/Ngrok_magical/raw/main/Magicalrok.zip"
 		elif [[ "$arch" == *'aarch64'* ]]; then
-			ngrok_url="https://github.com/Linux-Droid/Ngrok/raw/master/Ngrok_Linux_Droid.zip"
+			rm -rf $BIN/ngrok
+			ngrok_url="https://github.com/Bhaviktutorials/Ngrok_magical/raw/main/Magicalrok.zip"
 		elif [[ "$arch" == *'x86_64'* ]]; then
 			ngrok_url="https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip"
 		else
@@ -86,21 +86,32 @@ function setup_ngrok() {
 		fi
 		launch="installing ngrok";splashdown="installed ngrok";echo
 		(wget --quiet ${ngrok_url} -O ngrok.zip) & spinner
-		unzip -q ngrok.zip && rm -rf ngrok.zip && chmod +x ngrok && mv ngrok $BIN
+		unzip -q ngrok.zip && rm -rf ngrok.zip && chmod +x ngrok
+		mv ngrok $BIN
 	fi
 }
 
 function final_touchup() {
-	for i in shark; do
-		chmod +x ${main}/${i}
-		mv ${main}/${i} ${BIN}
-		printf "\n${green}>>${white} simply run : shark \n\n ${nc}"
-	done
+		if [ ${OS} != "DEBIAN" ]; then
+		printf "\n$yellow Enter your Ngrok Authtoken to continue [Ex. ngrok authtoken I7QUQ ] : $nc"
+		read ngrok_authtoken
+		$ngrok_authtoken > /dev/null 2&>1
+	        fi
+		for i in shark; do
+			chmod +x ${main}/${i}
+			mv ${main}/${i} ${BIN}
+			printf "\n${green}>>${white} simply run : shark \n\n ${nc}"
+		done
 }
 
 os
-git_clone
 dependencies
+git_clone
 setup_ngrok
 final_touchup
 
+#####################################
+#       DON'T TRY TO COPY 😂😂     #
+#   JUST LEARNING KEEP SUPPORTING   #
+#             THANKYOU              #
+#####################################
